@@ -1,1 +1,1 @@
-from EZ.main import EZ, load
+from apple.main import apple, load
