@@ -3,7 +3,7 @@ import os
 
 def load(file_name):
 	if not os.path.exists(file_name):
-		with open(f"{file_name}.db", 'w') as f:
+		with open(f"{file_name}", 'w') as f:
 			f.write("{}")
 
 	return kyna(file_name)
