@@ -6,9 +6,9 @@ def load(file_name):
 		with open(f"{file_name}.db", 'w') as f:
 			f.write("{}")
 
-	return EZ(file_name)
+	return apple(file_name)
 
-class EZ:
+class apple:
 	def __init__(self, file_name):
 		self.file_name = file_name
 
