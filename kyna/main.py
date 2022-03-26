@@ -23,6 +23,9 @@ class kyna:
 		self.content[key] = value
 		return True
 
+    def getAll(self):
+        return [key for key in self.content]
+
 	def asDict(self) -> dict:
 		return self.content
 
