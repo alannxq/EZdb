@@ -4,7 +4,7 @@ import os
 def load(file_name):
 	if not file_name.endswith(".db"):
 		file_name += ".db"
-		
+
 	if not os.path.exists(file_name):
 		with open(f"{file_name}", 'w') as f:
 			f.write("{}")
@@ -26,8 +26,11 @@ class kyna:
 		self.content[key] = value
 		return True
 
-	def getAll(self):
+	def getKeys(self):
 		return [key for key in self.content]
+
+	def getValues(self):
+		return [value for key, value in self.content.items()]
 
 	def asDict(self) -> dict:
 		return self.content
