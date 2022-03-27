@@ -16,10 +16,16 @@ import kyna
 db = kyna.load("test.db") ## File will be made if it does not exist
 
 db.set("name", "alan")
+db.set("age", 17)
 
 db.get("name") ## returns "alan"
 
-db.dump() ## saves any changes made
+
+db.getKeys() ## returns ["name", "age"]
+db.getValues() ## returns ["alan", 17]
+
 
 db.asDict() ## returns the file as a python dictionary
+
+db.dump() ## saves any changes made
 ```
