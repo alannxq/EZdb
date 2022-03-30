@@ -7,7 +7,7 @@ def load(file_name):
 
 	if not os.path.exists(file_name):
 		with open(f"{file_name}", 'w') as f:
-			f.write("{}")
+			f.write("{}") ## add empty json file to new file otherwise it cannot read it
 
 	return kyna(file_name)
 
