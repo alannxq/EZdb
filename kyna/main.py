@@ -1,5 +1,5 @@
 import ast
-import os
+import os 
 
 def load(file_name):
 	if not file_name.endswith(".db"):
