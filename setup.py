@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-  name = 'kyna',         # How you named your package folder (MyLib)
-  packages = ['kyna'],   # Chose the same as "name"
-  version = '0.4.7',      # Start with a small number and increase it with every change you make
+  name = 'kyna',        # How you named your package folder (MyLib)
+  packages = ['kyna'],  # Chose the same as "name"
+  version = '0.4.7',    # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A ',   # Give a short description about your library
   author = 'Alan Koterba',                   # Type in your name
