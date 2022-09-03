@@ -10,7 +10,7 @@ pip install kyna
 
 ## Usage
 
-```Py
+```Py 
 import kyna
 
 db = kyna.load("test.db") ## File will be made if it does not exist
