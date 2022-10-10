@@ -1,7 +1,7 @@
 # kyna
 
 an easier way to use json files in python. for now it has ~~two~~ ~~four~~ six methods, none of which are useful
-
+ 
 ## Installation
 
 ```Py
