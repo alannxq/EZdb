@@ -8,7 +8,7 @@ an easier way to use json files in python. for now it has ~~two~~ ~~four~~ six m
 pip install kyna
 ```
 
-## Usage
+## Usage 
 
 ```Py 
 import kyna
